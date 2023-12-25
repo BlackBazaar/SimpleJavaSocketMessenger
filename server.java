@@ -33,7 +33,7 @@ public class server {
         BufferedWriter bufferedWriter = null;
         BufferedReader bufferedReader = null;
 
-        ServerSocket socket = new ServerSocket(7001);
+        ServerSocket socket = new ServerSocket(12345);
 
 
 

@@ -11,7 +11,7 @@ public class client {
         BufferedReader bufferedReader = null;
         Data data;
 
-        Socket socket1 = new Socket("localhost",7001);
+        Socket socket1 = new Socket("localhost",12345);
         System.out.println("Connected with Server");
 
         System.out.print("Enter your name: ");
